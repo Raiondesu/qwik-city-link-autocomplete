@@ -1,5 +1,11 @@
 # Change Log
 
+## [0.0.2]
+
+### Fixes
+
+- Bugged demo link caused demo animation to not show up in extension marketplace
+
 ## [0.0.1]
 
 - Initial release
