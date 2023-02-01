@@ -14,15 +14,15 @@ exports.autocompleteProviders = ['javascriptreact', 'typescriptreact']
         if (!textContextMatch) {
             return [];
         }
-        const { prefix, insertRange } = (0, provider_helpers_1.extractInsertionData)(position, text, textContextMatch);
+        const { prefix, quoteMark, applyRange } = (0, provider_helpers_1.extractInsertionData)(position, text, textContextMatch);
         if ((0, configuration_1.isCacheEnabled)() && cache_1.cache[document.fileName]) {
-            return cache_1.cache[document.fileName].map((0, provider_helpers_1.applyRange)(insertRange));
+            return cache_1.cache[document.fileName].map(applyRange);
         }
-        return (0, generate_suggestions_1.generateSuggestions)(prefix, token).then(results => {
+        return (0, generate_suggestions_1.generateSuggestions)(prefix, quoteMark, token).then(results => {
             if ((0, configuration_1.isCacheEnabled)() && results.length > 0) {
                 cache_1.cache[document.fileName] = results;
             }
-            return results.map((0, provider_helpers_1.applyRange)(insertRange));
+            return results.map(applyRange);
         });
     },
 }, '/', "'", '"')));

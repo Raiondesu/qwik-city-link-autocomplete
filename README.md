@@ -7,6 +7,7 @@ Visual Studio Code extension that provides autocomplete for the `<Link>`'s `href
 - Automatically provides autocomplete when placing the attribute quotes (`"` or `'`) or a url slash (`/`).
 - Caches suggestions and reacts to directory changes.
 - Detects the attribute's value borders and replaces it with the chosen suggestion regardless of current cursor position.
+- Supports all kinds of [route parameters](https://qwik.builder.io/qwikcity/routing/route-parameters/).
 
 ![demo](.github/assets/qwik-extension-demo.gif)
 

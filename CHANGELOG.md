@@ -1,5 +1,12 @@
 # Change Log
 
+## [0.1.0]
+
+### Features
+
+- Added support for [`(route groups)`](https://qwik.builder.io/qwikcity/routing/route-parameters/#groups)
+  and [`[route params]`](https://qwik.builder.io/qwikcity/routing/route-parameters/)
+
 ## [0.0.3 - 0.0.4]
 
 - Added extension icon
