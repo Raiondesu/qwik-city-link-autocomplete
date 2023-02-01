@@ -10,7 +10,7 @@
   "publisher": "raiondesu",
   "author": "Raiondesu",
   "license": "MIT",
-  "version": "0.0.4",
+  "version": "0.1.0",
   "engines": {
     "vscode": "^1.74.0"
   },
@@ -27,7 +27,6 @@
     "href",
     "link"
   ],
-
   "activationEvents": [
     "onLanguage:typescriptreact",
     "onLanguage:javascriptreact"
@@ -71,7 +70,6 @@
       }
     }
   },
-
   "scripts": {
     "vscode:prepublish": "npm run compile",
     "compile": "tsc -p ./",
