@@ -17,6 +17,17 @@
   "categories": [
     "Other"
   ],
+  "keywords": [
+    "qwik",
+    "qwik-city",
+    "qwik city",
+    "link autocomplete",
+    "link href autocomplete",
+    "autocomplete",
+    "href",
+    "link"
+  ],
+
   "activationEvents": [
     "onLanguage:typescriptreact",
     "onLanguage:javascriptreact"
@@ -60,6 +71,7 @@
       }
     }
   },
+
   "scripts": {
     "vscode:prepublish": "npm run compile",
     "compile": "tsc -p ./",
