@@ -5,6 +5,7 @@
 ### Fixes
 
 - Incorrect url interpolation if multiple params are present
+- Backtick (`\``) didn't trigger the autocomplete
 
 ## [0.1.0]
 
