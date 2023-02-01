@@ -4,9 +4,9 @@
   "description": "Provides autocomplete for the `href` attribute value based on the `src/routes` directory structure",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Raiondesu/qwik-city-link-autocomplete.git"
+    "url": "https://github.com/Raiondesu/qwik-city-link-autocomplete.git"
   },
-  "icon": "https://github.com/Raiondesu/qwik-city-link-autocomplete/raw/main/.github/assets/icon.png",
+  "icon": ".github/assets/icon.png",
   "publisher": "raiondesu",
   "author": "Raiondesu",
   "license": "MIT",
