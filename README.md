@@ -9,7 +9,15 @@ Visual Studio Code extension that provides autocomplete for the `<Link>`'s `href
 - Detects the attribute's value borders and replaces it with the chosen suggestion regardless of current cursor position.
 - Supports all kinds of [route parameters](https://qwik.builder.io/qwikcity/routing/route-parameters/).
 
+---
+
 ![demo](.github/assets/qwik-extension-demo.gif)
+
+---
+
+![demo](.github/assets/qwik-extension-demo-params.gif)
+
+---
 
 ## Extension Settings
 
