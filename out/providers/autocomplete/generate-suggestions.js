@@ -16,13 +16,12 @@ async function generateSuggestions(prefix, token) {
     const globalItems = files
         .map((file) => {
         const foldername = file.path.match(/\/routes(\/.+\/)index/)?.[1];
-        return createCompletionItem(foldername, prefix);
+        return createCompletionItem(
+        // filter out any (group) parts of the path
+        foldername.replace(/\/\(.+\)\//g, '/'), prefix);
     });
     // TODO: add local links (without leading "/")
-    return [
-        createCompletionItem('/', prefix),
-        ...globalItems
-    ];
+    return globalItems;
 }
 exports.generateSuggestions = generateSuggestions;
 //# sourceMappingURL=generate-suggestions.js.map
