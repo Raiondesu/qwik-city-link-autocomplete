@@ -1,9 +1,11 @@
 # Change Log
 
-All notable changes to the "qwik-city-link-href-autocomplete-extension" extension will be documented in this file.
-
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
-
-## [Unreleased]
+## [0.0.1]
 
 - Initial release
+
+### Features
+
+- Automatically provides autocomplete when placing the attribute quotes (`"` or `'`) or a url slash (`/`).
+- Caches suggestions and reacts to directory changes.
+- Detects the attribute's value borders and replaces it with the chosen suggestion regardless of current cursor position.
