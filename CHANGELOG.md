@@ -1,5 +1,11 @@
 # Change Log
 
+## [0.1.1]
+
+### Fixes
+
+- Incorrect url interpolation if multiple params are present
+
 ## [0.1.0]
 
 ### Features

@@ -19,7 +19,7 @@ const createCompletionItem = (foldername, prefix, quoteMark) => {
         return item;
     }
     // Set insertText to template string if a route paramter is found
-    item.insertText = item.label.toString().replace(/\[(?:\.\.\.)?(.+)\]/g, '\$\{$1\}');
+    item.insertText = item.label.toString().replace(/\[(?:\.\.\.)?(.+?)\]/g, '\$\{$1\}');
     item.detail = 'Link with params';
     item.documentation = 'href='
         + quoteMark
@@ -30,7 +30,7 @@ const createCompletionItem = (foldername, prefix, quoteMark) => {
 };
 // filters out any (group) parts of the path
 const filterGroup = (link) => link.replace(/\/\(.+\)\//g, '/');
-const isParamLink = (link) => /\[.+\]/.test(link);
+const isParamLink = (link) => /\[.+?\]/.test(link);
 exports.isParamLink = isParamLink;
 async function generateSuggestions(prefix, quoteMark, token) {
     const files = await vscode.workspace.findFiles(routesGlob, 'src/routes/index*', undefined, token);

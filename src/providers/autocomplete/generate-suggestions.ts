@@ -26,7 +26,7 @@ const createCompletionItem = (
   }
 
   // Set insertText to template string if a route paramter is found
-  item.insertText = item.label.toString().replace(/\[(?:\.\.\.)?(.+)\]/g, '\$\{$1\}');
+  item.insertText = item.label.toString().replace(/\[(?:\.\.\.)?(.+?)\]/g, '\$\{$1\}');
 
   item.detail = 'Link with params';
   item.documentation = 'href='
@@ -41,7 +41,7 @@ const createCompletionItem = (
 // filters out any (group) parts of the path
 const filterGroup = (link: string) => link.replace(/\/\(.+\)\//g, '/');
 
-export const isParamLink = (link: string) => /\[.+\]/.test(link);
+export const isParamLink = (link: string) => /\[.+?\]/.test(link);
 
 export async function generateSuggestions(
   prefix: string,
