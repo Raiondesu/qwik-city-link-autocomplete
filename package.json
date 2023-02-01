@@ -6,6 +6,7 @@
     "type": "git",
     "url": "git+https://github.com/Raiondesu/qwik-city-link-autocomplete.git"
   },
+  "publisher": "raiondesu",
   "author": "Raiondesu",
   "license": "MIT",
   "version": "0.0.1",
