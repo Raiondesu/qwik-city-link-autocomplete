@@ -1,5 +1,9 @@
 # Change Log
 
+## [0.0.3]
+
+- Added extension icon
+
 ## [0.0.2]
 
 ### Fixes
