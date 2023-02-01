@@ -4,8 +4,7 @@
 
 ### Features
 
-- Added support for [`(route groups)`](https://qwik.builder.io/qwikcity/routing/route-parameters/#groups)
-  and [`[route params]`](https://qwik.builder.io/qwikcity/routing/route-parameters/)
+- Added support for [`[route parameters]`](https://qwik.builder.io/qwikcity/routing/route-parameters/)
 
 ## [0.0.3 - 0.0.4]
 
