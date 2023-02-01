@@ -9,7 +9,7 @@
   "publisher": "raiondesu",
   "author": "Raiondesu",
   "license": "MIT",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.74.0"
   },
@@ -28,13 +28,17 @@
     "virtualWorkspaces": {
       "supported": true
     },
-    "completionProvider" : {
+    "completionProvider": {
       "resolveProvider": "true",
-      "triggerCharacters": [ "/", "\"", "'" ]
+      "triggerCharacters": [
+        "/",
+        "\"",
+        "'"
+      ]
     }
   },
   "contributes": {
-    "configuration":{
+    "configuration": {
       "title": "Qwik City <Link href> autocomplete",
       "properties": {
         "qwik-city-link-autocomplete.cacheEnabled": {
@@ -44,7 +48,9 @@
         },
         "qwik-city-link-autocomplete.attributes": {
           "type": "array",
-          "default": ["href"],
+          "default": [
+            "href"
+          ],
           "items": {
             "type": "string"
           },
