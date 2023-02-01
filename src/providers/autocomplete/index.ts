@@ -30,6 +30,6 @@ export const autocompleteProviders = ['javascriptreact', 'typescriptreact']
           return results.map(applyRange);
         });
       },
-    }, '/', "'", '"')
+    }, '/', "'", '"', '`')
   ));
 

@@ -25,5 +25,5 @@ exports.autocompleteProviders = ['javascriptreact', 'typescriptreact']
             return results.map(applyRange);
         });
     },
-}, '/', "'", '"')));
+}, '/', "'", '"', '`')));
 //# sourceMappingURL=index.js.map
