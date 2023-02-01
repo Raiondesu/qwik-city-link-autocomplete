@@ -8,7 +8,7 @@ Visual Studio Code extension that provides autocomplete for the `<Link>`'s `href
 - Caches suggestions and reacts to directory changes.
 - Detects the attribute's value borders and replaces it with the chosen suggestion regardless of current cursor position.
 
-![demo](https://github.com/Raiondesu/qwik-city-link-autocomplete/blob/main/.github/assets/qwik-extension-demo.gif)
+![demo](https://media.giphy.com/media/8lr9RmiDkq65ol5Op6/giphy.gif)
 
 ## Extension Settings
 
